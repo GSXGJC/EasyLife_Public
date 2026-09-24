@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="651fd783-ded6-435a-8f5c-fcc793b03a0b" name="更改" comment="基本框架" />
+    <list default="true" id="651fd783-ded6-435a-8f5c-fcc793b03a0b" name="更改" comment="基本框架">
+      <change afterPath="$PROJECT_DIR$/sql/easylive.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-web/src/main/resources/application-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-web/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-web/src/main/resources/application-pro.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-web/src/main/resources/application-pro.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-web/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-web/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/user_follow.sql" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +38,7 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$/easylive-common" source="master" />
+                <branch-info repo="$PROJECT_DIR$" source="master" />
               </list>
             </value>
           </entry>
@@ -89,7 +97,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbr-21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/学习或开发/Spring/EasyLife&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MyProjects/fronted/Test&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -193,6 +201,9 @@
       <workItem from="1789889733797" duration="91000" />
       <workItem from="1789889832197" duration="1400000" />
       <workItem from="1789891299408" duration="471000" />
+      <workItem from="1789891871380" duration="1986000" />
+      <workItem from="1789981764312" duration="53000" />
+      <workItem from="1790231091708" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="初版">
       <option name="closed" value="true" />
@@ -234,30 +245,46 @@
       <option name="project" value="LOCAL" />
       <updated>1789891736854</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="基本框架">
+      <option name="closed" value="true" />
+      <created>1789891980973</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789891980973</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>

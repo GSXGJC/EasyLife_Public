@@ -1,4 +1,9 @@
 spring:
+  servlet:
+    multipart:
+      # 默认单文件只能 1MB，视频必挂，这里放大
+      max-file-size: 100MB
+      max-request-size: 100MB
   data:
     redis:
       host: 121.199.38.195
