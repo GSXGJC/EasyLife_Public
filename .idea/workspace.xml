@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="651fd783-ded6-435a-8f5c-fcc793b03a0b" name="更改" comment="基本框架">
-      <change afterPath="$PROJECT_DIR$/sql/easylive.sql" afterDir="false" />
+    <list default="true" id="651fd783-ded6-435a-8f5c-fcc793b03a0b" name="更改" comment="修改配置文件,删除workspace.xml,修正配置文件">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easylive-web/src/main/resources/application-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-web/src/main/resources/application-dev.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easylive-web/src/main/resources/application-pro.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-web/src/main/resources/application-pro.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easylive-web/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-web/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/user_follow.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-web/src/main/resources/application-dev.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-web/src/main/resources/application-pro.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-web/src/main/resources/application.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +202,9 @@
       <workItem from="1789891299408" duration="471000" />
       <workItem from="1789891871380" duration="1986000" />
       <workItem from="1789981764312" duration="53000" />
-      <workItem from="1790231091708" duration="387000" />
+      <workItem from="1790231091708" duration="1127000" />
+      <workItem from="1790232308323" duration="2298000" />
+      <workItem from="1790234643662" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="初版">
       <option name="closed" value="true" />
@@ -253,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789891980973</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改配置文件">
+      <option name="closed" value="true" />
+      <created>1790231530759</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1790231530759</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改配置文件,删除workspace.xml,修正配置文件">
+      <option name="closed" value="true" />
+      <created>1790233093578</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1790233093578</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +315,8 @@
     <MESSAGE value="redis+jwt实现有状态登录" />
     <MESSAGE value="登出功能" />
     <MESSAGE value="基本框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本框架" />
+    <MESSAGE value="修改配置文件" />
+    <MESSAGE value="修改配置文件,删除workspace.xml,修正配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改配置文件,删除workspace.xml,修正配置文件" />
   </component>
 </project>
