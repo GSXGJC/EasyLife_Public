@@ -1,0 +1,93 @@
+/* ============================================================
+ * 设计变量
+ * 主题通过根元素 <html data-theme="light|dark"> 切换，
+ * 由 composables/useTheme.js 控制，偏好存于 localStorage。
+ * ============================================================ */
+
+:root {
+  /* 布局尺寸 */
+  --sidebar-width: 100px;
+  --topbar-height: 56px;
+
+  /* 圆角 */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  /* 间距 */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+
+  /* 字号 */
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-title: 18px;
+
+  /* 过渡 */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.25s ease;
+}
+
+/* ---------- 亮色主题（默认） ---------- */
+:root,
+[data-theme='light'] {
+  --color-bg: #ffffff;
+  --color-bg-sidebar: #f6f7f8;
+  --color-bg-hover: #e5e6e7;
+  --color-bg-elevated: #ffffff;
+
+  --color-text: #18191c;
+  --color-text-secondary: #61666d;
+  --color-text-muted: #9499a0;
+
+  --color-border: #e5e6e7;
+  --color-border-strong: #d0d3d6;
+
+  --color-primary: #00aeec;      /* easylive 主色（蓝） */
+  --color-primary-hover: #33c3f0;
+  --color-danger: #fb7299;       /* 上传按钮（粉） */
+  --color-danger-hover: #ff85a8;
+  --color-coin: #f5b342;         /* 投币（金） */
+
+  --color-cover-mask: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0) 40%
+  );
+
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* ---------- 暗色主题 ---------- */
+[data-theme='dark'] {
+  --color-bg: #17181a;
+  --color-bg-sidebar: #202124;
+  --color-bg-hover: #2b2c2f;
+  --color-bg-elevated: #202124;
+
+  --color-text: #e8e8e8;
+  --color-text-secondary: #a0a0a5;
+  --color-text-muted: #6d6d73;
+
+  --color-border: #2b2c2f;
+  --color-border-strong: #3a3b3f;
+
+  --color-primary: #00aeec;
+  --color-primary-hover: #33c3f0;
+  --color-danger: #fb7299;
+  --color-danger-hover: #ff85a8;
+  --color-coin: #f5b342;
+
+  --color-cover-mask: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 40%
+  );
+
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
